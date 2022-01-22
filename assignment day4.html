@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet/stylesheetforday4assignment.css">
+    <title>Contact form</title>
+</head>
+<body>
+    <center>
+    <h1 class="mainheading"><u> Contact form </u></h1>
+    <form action="backend.php" method="post">
+            <div class="name">
+                <label for="fname"> First name:</label>
+                <input type="text" placeholder="first name" name="myfirstname" id="fname">
+            </div><br>
+            <div class="name"> 
+                <label for="lname">Last name:</label>
+                <input type="text" placeholder="last name" name="mylastname" id="lname" >
+            </div><br>
+            <div class="name">
+                <label for="username">Username:</label>
+                <input type="text" placeholder="user name" name="myusername" id="username">
+            </div><br>
+            <div id="pass">
+               <label for="password">Password:</label>
+               <input type="password" placeholder="password" name="mypassword" id="password"><br>
+               (password case sensitive)
+            </div><br>
+            <div class="name">
+                <label for="text"> Your Message:</label><br>
+                <textarea name="mymessage" id="text" cols="30" rows="10"></textarea>
+            </div><br>
+            <div>
+                <input type="submit" value="Submit now" id="submit">
+                <input type="reset" value="Reset now" id="reset">
+            </div>
+    </form>
+</center>
+    
+</body>
+</html>
